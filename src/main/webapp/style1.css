@@ -1,0 +1,163 @@
+#root
+{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+text-align:center;
+}
+#teamName
+{
+display:grid;
+grid-template-columns: repeat(1,1fr);
+}
+
+body{
+    margin:0;
+    padding: 0;;
+}
+
+.card{
+height:300px;
+width: 600px;
+border:2px solid black;
+margin:15px;
+padding:10px;
+box-sizing: border-box;
+background-color:white;
+margin-bottom:50px;
+border-radius:20px;
+}
+#root1
+{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+text-align:center;
+}
+.scheduleCard{
+height:180px;
+border:2px solid black;
+border-radius: 3px;
+margin:15px;
+padding:10px;
+box-sizing: border-box;
+background-color: white;
+margin-bottom:50px;
+border-radius:20px;
+}
+
+@media(max-width: 660px){
+    #root{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+.details{
+    text-align: center;
+    font-size: 25px;
+    padding:5px;
+    margin-top:10px;
+}
+
+.head{
+height:80px;
+background-color: darkgrey;
+width:100%;
+padding:0px;
+margin:0px;
+text-align:center;
+margin-bottom:20px;
+}
+
+.profileImg{
+    height:140px;
+    width:150px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 80px;
+    text-align: center;
+    line-height: 120px ;
+    background-color:#126841;
+}
+
+.rating {
+  display: inline-block;
+  position: relative;
+  height: 30px;
+  width:145px;
+  line-height: 30px;
+  font-size: 20px;
+  border-radius:10px;
+}
+
+.registerButton{
+height:40px;
+width:150px;
+background-color:Black;
+color:white;
+font-size:20px;
+float:right;
+}
+
+.ratingButton{
+font-size:20px;
+color:white;
+background-color:black;
+height:40px;
+width:150px;
+display:block;
+padding-top:3px;
+}
+
+.teamDetailsButton{
+height:40px;
+width:150px;
+background-color:Black;
+color:white;
+margin-top:70px;
+font-size:20px;
+}
+
+.matchCard{
+height:200px;
+width: 600px;
+background-color:white;
+border:2px solid black;
+border-radius:20px;
+margin:20px;
+}
+.info{
+margin:20px;
+font-size:30px;
+
+}
+.infoButton{
+margin:20px;
+font-size:20px;
+border:2px solid black;
+background-color:white;
+border-radius:10px;
+}
+.toss{
+height:30px;
+width:100px;
+margin-left:45%;
+background-color:white;
+text-color:black;
+font-size:20px;
+border-radius:15px;
+border:2px solid black;
+}
+.loginButton{
+height:40px;
+width:100px;
+background-color:white;
+text-color:black;
+font-size:20px;
+margin-right:45px;
+border-radius:15px;
+border:2px solid black;
+}
+
+#no_matches{
+    text-align: center;
+    margin:20%;
+    font-size: 50px;
+}

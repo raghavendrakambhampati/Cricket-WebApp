@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <title>Create Schedule</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="logout.js" ></script>
+</head>
+<body>
+<div class="header">
+    <a href="index.html">
+        <img class="logo"
+             src="logo.jpg">
+    </a>
+    <h1 style="color: aliceblue;text-align:center;">
+        Pramati Cricket League
+    </h1>
+</div>
+<table class="log">
+    <tr>
+        <td >
+            <a class="nav" href="adminLogin.html">Home </a>
+        </td>
+        <td>
+            <a class="nav" href="teams.html">Teams </a>
+        </td>
+        <td >
+            <a class="nav" href="todaysMatch.html">Todays Match</a>
+        </td>
+
+        <td>
+            <input type="submit" class = "nav" value="Logout" id="logoutButton">
+        </td>
+    </tr>
+</table>
+<div class="mainBackground">
+    <div class="ScheduleForm">
+        <form method = "POST" action = "schedule/">
+            <label>
+                <b>Number of matches per day :</b><input class="label" type="number" name="matchesPerDay" required><br>
+            </label>
+            <b>Tournament start Date :</b><input class="label" type="date" name = "matchStartDate" required><br>
+            <label>
+                <input style="border-radius:20px;background:white;color:black; border:solid 2px black;" type="submit" class="registerButton" value="Submit"/>
+            </label>
+        </form>
+    </div>
+</div>
+</body>
+</html>

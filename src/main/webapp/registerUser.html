@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <title>Registration</title>
+</head>
+
+<body>
+<div class="header">
+    <img class="logo"
+         src="logo.jpg">
+    <h1 style="color: aliceblue;text-align:center;">
+        Pramati Cricket League
+    </h1>
+</div>
+<table class="log">
+    <tr>
+        <td >
+            <a class="nav" href="index.html">Home </a>
+        </td>
+        <td >
+            <a class="nav" href="registerUser.html">Register </a>
+        </td>
+        <td >
+            <a class="nav" href="schedule.html">Schedule </a>
+        </td>
+        <td >
+            <a class="nav" href="rules.html">Rules </a>
+        </td>
+    </tr>
+</table>
+<div class="mainBackground">
+    <div class="loginBlock">
+        <h1 style="text-align:center">Please fill below details for registration</h1>
+        <form method="post" action="users">
+            <label><b>Name:</b><input type="text" name="name" autofocus="autofocus" class="label" required></label><br/>
+            <label><b>User Id:</b><input type="text" name="userId" class="label" required></label><br/>
+            <label><b>Email ID:</b><input type="email" name="email" class="label" required></label><br/>
+            <label><b>Password:</b><input type="password" name="password" class="label" required></label><br/>
+            <label><b>Gender:</b></label><input type="radio" name="gender" class="label" value="male" required>Male
+            <input type="radio" name="gender" class="label" value="female" required>Female<br/>
+            <label><b>Mobile Number:</b><input type="text" name="mobileNumber" class="label" required></label><br/>
+            <!-- <label>Profile Photo:<input type="image" src=""/></label>-->
+            <label><b>Role:</b></label><input type="radio" name="role" class="label" value="Player" required>Player
+            <input type="radio" name="role" class="label" value="Owner" required>Owner<br/>
+            <label>
+                <fieldset>
+                    <legend><b>Player Skills:</b></legend>
+                    <input type="checkbox" name="skills" value="Batting">Batting
+                    <input type="checkbox" name="skills" value="Bowling">Bowling
+                    <input type="checkbox" name="skills" value="Keeper">Keeper
+                    <input type="checkbox" name="skills" value="AllRounder">All Rounder
+                    <input type="checkbox" name="skills" value="None">None<br/>
+                </fieldset>
+            </label>
+            <br/>
+            <label>
+                <input type="submit" value="Register" class="registerButton"/>
+            </label>
+        </form>
+    </div>
+</div>
+</body>
+</html>

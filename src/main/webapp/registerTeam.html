@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <title>Team Registration</title>
+</head>
+
+<body>
+<div class="header">
+    <a href="index.html">
+        <img class="logo"
+             src="logo.jpg">
+    </a>
+    <h1 style="color: aliceblue;text-align:center;">
+        Pramati Cricket League
+    </h1>
+</div>
+<table class="log">
+    <tr>
+        <td >
+            <a class="nav" href="ownerLogin.html">Home </a>
+        </td>
+        <td >
+            <a class="nav" href="registerTeam.html">Register Team</a>
+        </td>
+        <td >
+            <a class="nav" href="schedule.html">Schedule </a>
+        </td>
+        <td >
+            <a class="nav" href="rules.html">Rules </a>
+        </td>
+    </tr>
+</table>
+<div class="mainBackground">
+    <div class="loginBlock">
+        <h1 style="text-align:center">Please fill below details for registration</h1>
+        <form method="post" action="teams">
+            <label><b>Team Name:</b><input type="text" name="teamName" autofocus="autofocus" class="label" required></label><br/>
+            <label><b>City:</b><input type="text" name="city" class="label" required></label><br/>
+            <label>
+                <input type="submit" value="Register" class="registerButton"/>
+            </label>
+        </form>
+    </div>
+</div>
+</body>
+</html>

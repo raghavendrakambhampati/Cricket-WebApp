@@ -1,0 +1,110 @@
+
+.mainDiv{
+    padding:25px;
+}
+fieldset{
+    margin-top: 30px;
+}
+legend{
+    font-size: 24px;
+}
+.tournamentName{
+    padding:25px;
+    background-color: rgb(255, 255, 255);
+    height:100px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-size:25px ;
+}
+.tournamentName label{
+    font-size: 30px;
+    padding:12px;
+}
+.tournamentName input[type=text]{
+    width:70%;
+    padding:18px;
+    border-radius: 40px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+}
+.registration{
+    padding:25px;
+    background-color: rgb(255, 255, 255);
+    height:100px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-size:25px;
+    margin-bottom: 15px;
+}
+.registration label{
+    font-size: 30px;
+    padding:12px;
+}
+.registration input[type=date]{
+    width:200px;
+    padding:15px;
+    border-radius: 40px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.registration span{
+    margin: 300px;
+}
+.matchType{
+    padding:10px;
+    background-color: rgb(255, 255, 255);
+    height:100px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-size:25px;
+    margin-bottom: 15px;
+}
+.matchType label{
+    font-size: 30px;
+    padding:12px;
+}
+.matchType input[type=radio]{
+    width:100px;
+    padding:15px;
+    border-radius: 40px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.matchType input[type=number]{
+    width:200px;
+    padding:15px;
+    border-radius: 40px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.trails{
+    padding:25px;
+    background-color: rgb(255, 255, 255);
+    height:100px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-size:25px;
+    margin-bottom: 15px;
+}
+.trails label{
+    font-size: 30px;
+    padding:12px;
+}
+.trails input[type=date]{
+    width:200px;
+    padding:15px;
+    border-radius: 40px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.trails span{
+    margin: 300px;
+}

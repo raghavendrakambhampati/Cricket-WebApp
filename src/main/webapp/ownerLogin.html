@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <title>Owner</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="logout.js" ></script>
+</head>
+<body>
+<div class="header">
+    <a href="index.html">
+        <img class="logo"
+             src="logo.jpg">
+    </a>
+    <h1 style="color: aliceblue;text-align:center;">
+        Pramati Cricket League
+    </h1>
+</div>
+<table class="log">
+    <tr>
+        <td >
+            <a class="nav" href="ownerLogin.html">Home </a>
+        </td>
+        <td >
+            <a class="nav" href="registerTeam.html">Register a Team</a>
+        </td>
+        <td >
+            <a class="nav" href="schedule.html">Schedule </a>
+        </td>
+        <td >
+            <a class="nav" href="rules.html">Rules </a>
+        </td>
+
+        <td>
+            <a type="submit" class = "nav" value="Logout" id="logoutButton">Log out</a>
+        </td>
+    </tr>
+</table>
+<div class="mainBackground">
+    <div class="profileCard">
+        <div class="profileDetails" id="profile">
+            <button class="Button" onclick="loadData();this.disabled=true;this.style.display='none';">My Profile</button>
+        </div>
+    </div>
+    <div class="matchesBlock">
+        <a class="blockContent" href="ownerTeam.html">MyTeam</a>
+    </div>
+    <div class="matchesBlock">
+        <a class="blockContent" href="teams.html">All Teams</a>
+    </div>
+</div>
+<script type="text/javascript" src="profile.js" ></script>
+</body>
+</html>

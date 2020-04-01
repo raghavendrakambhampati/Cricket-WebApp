@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <title>Pramati Cricket League</title>
+    <style>
+    input{
+     height:40px;width:300px;text-align :center;
+     border:2px solid black;
+     }
+    </style>
+</head>
+
+
+<body>
+<div class="header">
+    <img class="logo"
+         src="logo.jpg">
+    <h1 style="color: aliceblue;text-align:center;">
+        Pramati Cricket League
+    </h1>
+</div>
+<table class="log">
+    <tr>
+        <td >
+            <a class="nav" href="index.html"><i class="fa fa-fw fa-home"></i>Home </a>
+        </td>
+        <td >
+            <a class="nav" href="registerUser.html">Register </a>
+        </td>
+        <td >
+            <a class="nav" href="schedule.html">Schedule </a>
+        </td>
+        <td >
+            <a class="nav" href="rules.html">Rules </a>
+        </td>
+
+<!--        <td >-->
+<!--            <a onclick="document.getElementById('loginId').style.opacity=1" class="nav">Login</a>-->
+<!--        </td>-->
+    </tr>
+</table>
+<div class="mainBackground">
+    <div ><img class="pramati" src="pramati.png"></div>
+    <div id="loginId" class="login">
+        <h1 style="text-align: center; margin-bottom:2px;color:#34495E">Login Here</h1>
+        <form method="POST" action="LoginServlet">
+            <input placeholder="Enter userID" type="text" name="userId" class="labelId" required id="userId" autocomplete="off"><br/>
+            <input placeholder="Password" type="password" name="passwordId" class="labelPassword" required id="passwordId"><br/>
+            <input type="submit" value="Login" class="loginButton" id="buttonId" />
+        </form>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="verifyLogin.js" ></script>
+
+</body>
+
+</html>
